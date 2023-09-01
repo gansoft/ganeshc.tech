@@ -90,7 +90,7 @@ class AbhigyanTrips():
     self.username = "abhigyantrips";
     self.location = "Mumbai, India";
     self.twitter = "@abhigyantrips";
-    self.web = "https://abhigyantrips.dev";
+    self.web = "https://ganesh.dev";
   
   def __str__(self):
     return self.name
