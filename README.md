@@ -7,7 +7,7 @@
   </p>
 <hr>
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Ganesh Chikhalikar</h1>
-<h3 align="center">Technical Lead | AI | Data Analysis Enthusiast</h3>
+<h3 align="center">Technical Lead | AI | Data  Enthusiast</h3>
 
 # Ganesh Chikhalikar Website 
  Hi I am a `Ganesh` <br><br>
