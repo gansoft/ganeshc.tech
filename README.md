@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/gansoft/gansoft/4a18e413c4df66de8e20cb7fbb88b749e09d5ff8/gitartwork.svg">
   </p>
 <hr>
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Ganesh Chikhalikar</h1>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Ganesh Chikhalikar </h1>
 <h3 align="center">Technical Lead | AI | Data  Enthusiast</h3>
 
 # Ganesh Chikhalikar Website 
