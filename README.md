@@ -88,7 +88,7 @@ class AbhigyanTrips():
   def __init__(self):
     self.name = "Ganesh Chikhalikar";
     self.username = "gansoft";
-    self.location = "Pune, India";
+    self.location = "Pune, MH, India";
     self.twitter = "@abhigyantrips";
     self.web = "https://ganesh.dev";
   
