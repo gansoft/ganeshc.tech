@@ -10,7 +10,7 @@
 <h3 align="center">Technical Lead | AI | Data Enthusiast</h3>
 
 # Ganesh Chikhalikar Website 
- Hi I am a `Ganesh` <br><br>
+ Hi I am a `Ganesh Chikhalikar` <br><br>
 [![Next][Next.js]][Next-url] 
 [![][React.js]][React-url] 
 [![Vue][Vue.js]][Vue-url] 
