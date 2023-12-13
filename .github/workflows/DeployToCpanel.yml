@@ -2,7 +2,7 @@ name: Deploy Public GitHub repository to cPanel
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
