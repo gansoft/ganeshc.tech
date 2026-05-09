@@ -1,0 +1,47 @@
+:root {
+  --bg: #0b1020;
+  --panel: #11182d;
+  --text: #e7ecff;
+  --muted: #a6b0cf;
+  --accent: #6ea8fe;
+  --border: #273457;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: radial-gradient(circle at top right, #1a2542, var(--bg) 45%);
+  color: var(--text);
+  line-height: 1.6;
+}
+.container { width: min(1040px, 92%); margin: 0 auto; }
+.topbar { position: sticky; top: 0; backdrop-filter: blur(8px); background: #0b1020cc; border-bottom: 1px solid #1a2746; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: .9rem 0; }
+.brand { color: white; text-decoration: none; font-weight: 800; }
+.brand span { color: var(--accent); }
+nav a { color: var(--muted); margin-left: 1rem; text-decoration: none; }
+.hero { padding: 5rem 0 3rem; }
+.eyebrow { color: var(--accent); font-weight: 600; }
+h1 { font-size: clamp(2rem, 4vw, 3.5rem); margin: .4rem 0 1rem; }
+h1 span { color: #9cc2ff; }
+.lead { color: var(--muted); max-width: 760px; }
+.cta-row { margin-top: 1.5rem; display: flex; gap: .8rem; }
+.btn { padding: .7rem 1rem; border-radius: 10px; text-decoration: none; font-weight: 600; border: 1px solid var(--border); }
+.btn.primary { background: var(--accent); color: #0b1020; border-color: transparent; }
+.btn.ghost { color: var(--text); }
+.section { padding: 2rem 0; }
+h2 { margin-bottom: .7rem; }
+.grid { display: grid; gap: 1rem; }
+.grid.four { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+.grid.two { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 1rem; }
+.card h3 { margin-top: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: .6rem; }
+.chips span { border: 1px solid var(--border); background: #121b33; color: #cbd8ff; padding: .35rem .65rem; border-radius: 999px; font-size: .9rem; }
+.contact .socials { display: flex; flex-wrap: wrap; gap: 1rem; }
+.socials a { color: #b7ccff; text-decoration: none; }
+footer { border-top: 1px solid #1a2746; margin-top: 3rem; }
+footer .container { padding: 1rem 0 2rem; color: var(--muted); font-size: .95rem; }
+@media (max-width: 760px) {
+  nav { display: none; }
+}
