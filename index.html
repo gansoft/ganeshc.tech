@@ -3,106 +3,144 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ganesh Chikhalikar | Technical Lead • Cloud Architect • AI Builder</title>
-  <meta name="description" content="Personal website of Ganesh Chikhalikar — Technical Lead specializing in Cloud, DevSecOps, Full Stack Engineering, and AI/ML." />
+  <title>Ganesh Chikhalikar | Technical Lead • Cloud Architect • AI/ML</title>
+  <meta name="description" content="Professional portfolio of Ganesh Chikhalikar — Technical Lead with expertise in cloud, DevSecOps, full stack engineering, and AI/ML." />
   <link rel="icon" type="image/png" href="assets/images/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/site.css" />
 </head>
 <body>
-  <header class="topbar">
+  <canvas id="particle-bg" aria-hidden="true"></canvas>
+  <div class="aurora aurora-a"></div>
+  <div class="aurora aurora-b"></div>
+
+  <header class="topbar glass">
     <div class="container nav">
       <a class="brand" href="#home">Ganesh<span>.tech</span></a>
       <nav>
         <a href="#about">About</a>
         <a href="#expertise">Expertise</a>
+        <a href="#work">Work</a>
+        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main id="home">
-    <section class="hero container">
-      <p class="eyebrow">Technical Lead • Cloud Architect • AI/ML Enthusiast</p>
-      <h1>Hi, I’m <span>Ganesh Chikhalikar</span>.</h1>
+    <section class="hero container section reveal">
+      <p class="eyebrow">Technical Lead • Cloud Architect • DevSecOps • AI/ML</p>
+      <h1>Building secure, scalable, and intelligent digital platforms.</h1>
       <p class="lead">
-        I design secure, scalable digital platforms across <strong>AWS, Azure, and GCP</strong>,
-        build modern full-stack systems, and apply AI/ML to automate complex workflows.
+        Hi, I’m <strong>Ganesh Chikhalikar</strong>. I help organizations modernize cloud foundations,
+        accelerate engineering velocity, and integrate AI capabilities into production systems.
       </p>
       <div class="cta-row">
-        <a class="btn primary" href="#contact">Let’s Collaborate</a>
-        <a class="btn ghost" href="https://github.com/gansoft" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn primary" href="#work">Explore My Work</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/ganesh-code" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
     </section>
 
-    <section id="about" class="section container">
-      <h2>About Me</h2>
-      <p>
-        I’m a Technical Lead with 8+ years of hands-on experience spanning cloud architecture,
-        DevOps/DevSecOps, software engineering, and AI-driven product development. I enjoy
-        leading teams, modernizing delivery pipelines, and turning business goals into resilient systems.
-      </p>
+    <section id="about" class="section container reveal">
+      <div class="panel glass">
+        <h2>About Me</h2>
+        <p>
+          I am a Technical Lead with 8+ years of experience across cloud architecture (AWS, Azure, GCP),
+          full-stack application engineering, DevOps/DevSecOps practices, and AI/ML-driven automation.
+          I lead teams to deliver reliable products, operational excellence, and secure software at scale.
+        </p>
+      </div>
     </section>
 
-    <section id="expertise" class="section container">
+    <section id="expertise" class="section container reveal">
       <h2>Core Expertise</h2>
       <div class="grid four">
-        <article class="card"><h3>Cloud</h3><p>AWS, Azure, GCP, Kubernetes, Terraform, cost/security optimization.</p></article>
-        <article class="card"><h3>Full Stack</h3><p>.NET Core, Microservices, React, JavaScript, APIs, distributed systems.</p></article>
-        <article class="card"><h3>Security</h3><p>DevSecOps, shift-left controls, automated scanning, governance & hardening.</p></article>
-        <article class="card"><h3>AI / ML</h3><p>Intelligent automation, MLOps enablement, practical AI integration.</p></article>
+        <article class="card glass"><h3>Cloud Architecture</h3><p>Multi-cloud platform strategy, migration, reliability, cost and governance.</p></article>
+        <article class="card glass"><h3>Full Stack Engineering</h3><p>.NET Core, React, JavaScript, APIs, microservices, and platform integration.</p></article>
+        <article class="card glass"><h3>DevSecOps</h3><p>Secure-by-default CI/CD, automated controls, vulnerability management, and compliance.</p></article>
+        <article class="card glass"><h3>AI / ML Enablement</h3><p>Intelligent workflows, MLOps thinking, and practical AI use in enterprise delivery.</p></article>
       </div>
     </section>
 
-    <section id="skills" class="section container">
-      <h2>Skills Snapshot</h2>
-      <div class="chips">
-        <span>AWS</span><span>Azure</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span>
-        <span>.NET Core</span><span>React</span><span>JavaScript</span><span>Python</span><span>PostgreSQL</span><span>Redis</span>
-        <span>CI/CD</span><span>DevSecOps</span><span>Microservices</span><span>AI/ML</span>
+    <section id="work" class="section container reveal">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <article class="timeline-item glass">
+          <h3>Technical Lead</h3>
+          <p class="meta">Cloud • Full Stack • Security • AI</p>
+          <p>Led engineering teams, delivered cloud-native solutions, improved SDLC security posture, and enabled scalable platform operations.</p>
+        </article>
+        <article class="timeline-item glass">
+          <h3>Senior Full Stack Engineer</h3>
+          <p class="meta">Microservices • Frontend • Backend</p>
+          <p>Designed and shipped high-quality web applications using React, .NET Core, and distributed data services.</p>
+        </article>
+        <article class="timeline-item glass">
+          <h3>DevOps / Cloud Engineer</h3>
+          <p class="meta">CI/CD • Kubernetes • IaC</p>
+          <p>Automated infrastructure lifecycle and deployment pipelines to improve release speed and reliability.</p>
+        </article>
       </div>
     </section>
 
-    <section id="projects" class="section container">
-      <h2>How I Deliver Value</h2>
+    <section id="education" class="section container reveal">
+      <h2>Education & Continuous Learning</h2>
       <div class="grid two">
-        <article class="card">
-          <h3>Cloud Modernization</h3>
-          <p>Architect and migrate workloads to secure, scalable cloud foundations with measurable reliability gains.</p>
+        <article class="card glass">
+          <h3>Bachelor’s in Computer Science</h3>
+          <p class="meta">University of Mumbai, India</p>
+          <p>Built foundational expertise in software engineering, systems, and computing principles.</p>
         </article>
-        <article class="card">
-          <h3>Platform Engineering</h3>
-          <p>Build reusable CI/CD and infrastructure patterns that accelerate releases while reducing operational risk.</p>
-        </article>
-        <article class="card">
-          <h3>Secure SDLC Enablement</h3>
-          <p>Embed automated security checks into pipelines to improve posture without slowing development velocity.</p>
-        </article>
-        <article class="card">
-          <h3>AI-Assisted Operations</h3>
-          <p>Apply AI/ML to incident detection, process automation, and observability to reduce manual overhead.</p>
+        <article class="card glass">
+          <h3>Continuous Professional Learning</h3>
+          <p class="meta">Cloud • Security • AI/ML</p>
+          <p>Actively learning and applying modern practices in cloud architecture, secure delivery, and AI-driven systems.</p>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="section container contact">
-      <h2>Let’s Connect</h2>
-      <p>I’m open to technical leadership, architecture consulting, and product collaboration opportunities.</p>
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/ganesh-code" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="https://github.com/gansoft" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://codepen.io/gansoft" target="_blank" rel="noreferrer">CodePen</a>
+    <section id="skills" class="section container reveal">
+      <h2>Skills Matrix (Horizontal Scroll)</h2>
+      <p class="lead small">Scroll horizontally to explore technologies.</p>
+      <div class="h-scroll" aria-label="Horizontally scrollable skills list">
+        <div class="h-card glass">AWS</div><div class="h-card glass">Azure</div><div class="h-card glass">GCP</div>
+        <div class="h-card glass">Kubernetes</div><div class="h-card glass">Terraform</div><div class="h-card glass">Docker</div>
+        <div class="h-card glass">.NET Core</div><div class="h-card glass">React</div><div class="h-card glass">JavaScript</div>
+        <div class="h-card glass">Python</div><div class="h-card glass">PostgreSQL</div><div class="h-card glass">Redis</div>
+        <div class="h-card glass">CI/CD</div><div class="h-card glass">DevSecOps</div><div class="h-card glass">Microservices</div>
+        <div class="h-card glass">MLOps</div><div class="h-card glass">Observability</div><div class="h-card glass">Automation</div>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <h2>Selected Impact</h2>
+      <div class="grid two">
+        <article class="card glass"><h3>Cloud Transformation</h3><p>Delivered scalable cloud foundations and governance models aligned to business outcomes.</p></article>
+        <article class="card glass"><h3>Secure Delivery Pipelines</h3><p>Integrated automated security checks to reduce risk while maintaining release velocity.</p></article>
+        <article class="card glass"><h3>AI-assisted Operations</h3><p>Applied AI-driven approaches for monitoring, diagnostics, and workflow optimization.</p></article>
+        <article class="card glass"><h3>Engineering Excellence</h3><p>Mentored teams, standardized architecture patterns, and improved reliability and maintainability.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <div class="panel glass">
+        <h2>Contact</h2>
+        <p>I’m open to consulting, architecture advisory, and technical leadership opportunities.</p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/ganesh-code" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/gansoft" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://codepen.io/gansoft" target="_blank" rel="noreferrer">CodePen</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
     <div class="container">
-      <p>© <span id="year"></span> Ganesh Chikhalikar. Built with clarity, performance, and purpose.</p>
+      <p>© <span id="year"></span> Ganesh Chikhalikar • Professional Portfolio</p>
     </div>
   </footer>
 
